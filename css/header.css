@@ -1,0 +1,18 @@
+/*上部右侧面包屑导航样式*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+    margin:0 -6px;
+}
+.d-bre>ul{background-color:transparent;}
+/*修改主导航样式*/
+.nav a{color:#cccccc;}
+@media screen and (max-width: 767px){
+    .container{width:560px !important;}
+}
+.form-control{
+    border:1px solid #80bdff;
+}
+.form-control:focus{
+    box-shadow:none;
+}
+

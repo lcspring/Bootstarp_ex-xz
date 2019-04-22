@@ -1,0 +1,19 @@
+.my_header,.my_footer{width:100%;}
+/*手写媒体查询，控制iframe的高度*/
+@media screen and (min-width: 992px){
+    .my_header{height:8rem;}
+    .my_footer{height:23rem;}
+}
+@media screen and (max-width: 991px){
+    .my_header{height:13rem;}
+    .my_footer{height:34rem;}
+}
+body{
+    background-color:#f5f5f5;
+    margin:0;padding:0;
+    font:1rem "simhei","Arial, Helvetica","sans-serif";
+}
+.my_small{
+    font-size: 0.8rem;
+    color:#6c757d;
+}

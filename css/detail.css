@@ -1,0 +1,13 @@
+.breadcrumb-item + .breadcrumb-item::before{
+    content:">";
+}
+.big>img:hover{
+    transform:scale(1.2);}
+.big>img{
+    width:100%;
+    transition:transform 1s;
+}
+.big{
+    width:100%;height:100%;
+    overflow:hidden;
+}

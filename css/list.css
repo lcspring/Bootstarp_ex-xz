@@ -1,0 +1,31 @@
+.list_title{
+    background-image:linear-gradient(to top, #f0f0f0 0%, #e0e0e0 100%);
+    font-size:16px;
+    color:#808080;
+}
+.p_list div.border{
+    overflow: hidden;
+}
+.my_img_position{
+    margin-top:-4px;
+    width:88%;
+}
+.my_input_width{
+    width:10%;
+    border:0;outline:0;
+}
+.pagination>.page-item{
+    margin:0 2px;
+}
+.pagination a{
+    border-radius:0.25rem;
+}
+.border-top {
+    border-top: 1px dashed #dddddd !important;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .shoppingcar{
+        width:140%;
+        margin-left:-0.5rem;
+    }
+}
